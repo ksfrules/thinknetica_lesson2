@@ -12,8 +12,6 @@ year = gets.chomp.to_i
 leap = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)
 result = date 
 
-index = 0 
-
 result += usual_year_array.take(month-1).sum
 
 result +=1 if leap && month > 2 
