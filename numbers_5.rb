@@ -1,11 +1,9 @@
 array = []
-start = 10
-finish = 100
-step = 5
+value = 10
 
-while start <= finish do
-  array.push(start)
-  start += 5
+while value <= 100 do
+  array.push(value)
+  value += 5
 end
 
 puts array
