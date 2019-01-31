@@ -15,7 +15,7 @@ result = date
 if year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)
   leap_or_not = true
 end
-index =0 
+index = 0 
 if leap_or_not
   loop do
     break if month == 1 
